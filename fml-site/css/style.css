@@ -1,0 +1,77 @@
+/* topbar section styling  */
+.topbar-social-icon i{
+    float: right;
+    color: #A1AAA7;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+.topbar-social-icon i:hover{
+    color: #4f5553;
+}
+.hr{
+    top: -10px;
+    position: relative;
+}
+.topbar{
+    margin-bottom: 1px solid #A1AAA7;
+}
+.site-info a{
+    color: #A1AAA7;
+    text-decoration: none;
+}
+.site-info .divider{
+    color: #A1AAA7;
+    padding: 0px 5px;
+}
+.site-info i{
+    color: #00D9A5;
+}
+.topbar{
+    padding: 8px;
+}
+
+/* navbar styling here  */
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+}
+.text-primery{
+    color: #00D9A5;
+    font-weight: bold;
+}
+.menus{
+    display: flex;
+    float: right;
+}
+.menus li a {
+   color: #A1AAA7 ;
+   text-decoration: none;
+}
+.menus li{
+    list-style: none;
+    padding: 5px 20px;
+}
+.nav-btn{
+    background: #00D9A5;
+    color: #ffff;
+}
+.nav-src-btn{
+    border: 1px solid #a1aaa7de !important;
+    background: transparent;
+    padding: 0px 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-right: -3px;
+}
+.col-md-3{
+    align-items: center;
+}
+.menu-bar{
+    margin-top: -20px;
+}
+.toggoler-icon{
+    display: none;
+}

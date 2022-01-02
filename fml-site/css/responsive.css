@@ -1,0 +1,63 @@
+/* topbar sectoin responsive styling start here  */
+@media  only screen and (max-width: 425px) {
+    .site-info{
+        font-size: 17px;
+    }
+    .topbar-social-icon{
+   margin: 0;
+   padding: 0;
+   position: relative;
+   margin-left: -35%;
+   font-size: 16px;
+   margin-top: 2px;
+
+    }
+  }
+
+  @media  only screen and (max-width: 375px) {
+    .site-info{
+        font-size: 15px;
+    }
+    .topbar-social-icon{
+   margin: 0;
+   padding: 0;
+   position: relative;
+   margin-left: -35%;
+   font-size: 15px;
+   margin-top: 3px;
+
+    }
+  }
+  @media  only screen and (max-width: 320px) {
+    .site-info{
+        font-size: 13px;
+    }
+    .topbar-social-icon{
+   margin: 0;
+   padding: 0;
+   position: relative;
+   margin-left: -35%;
+   font-size: 14px;
+   margin-top: 3px;
+
+    }
+  } 
+  /* end here */
+
+  /* menubar responsive styling */
+  @media  only screen and (max-width: 1023px) {
+    .menus{
+      display: none;
+    }
+    .toggoler-icon{
+      display: block;
+      float: right;
+      font-size: 25px;
+      cursor: pointer;
+    }
+    .menus.active{
+      display: block;
+    }
+
+  
+  }
